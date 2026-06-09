@@ -1,3 +1,5 @@
+<img width="1898" height="869" alt="Screenshot 2026-06-09 165337" src="https://github.com/user-attachments/assets/4f3507b1-af1c-4013-b07c-1f199334f687" />
+<img width="1889" height="862" alt="Screenshot 2026-06-09 165353" src="https://github.com/user-attachments/assets/6c51f898-a761-4eb3-9a89-3ad770196dfa" />
 # Blitz Square Security Dashboard
 
 A web-based apartment management dashboard built using HTML, CSS, and JavaScript.
