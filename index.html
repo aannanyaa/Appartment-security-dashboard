@@ -43,6 +43,10 @@
 
     <a href="#">Dashboard</a>
 
+    <a href="flats.html">
+    🏢 Flats
+    </a>
+
     <a href="pooja.html">Pooja Log</a>
 
     <a href="#">Visitor Log</a>
@@ -50,6 +54,8 @@
     <a href="maintenance.html">
     Maintenance Log
     </a>
+
+
 
     <a href="#">Emergency Alerts</a>
 
@@ -86,9 +92,60 @@
 
 </div>
 
+<div class="stats-container">
+
+    <div class="stat-card">
+        <h3>Total Flats</h3>
+        <h2 id="totalFlats"></h2>
+    </div>
+
+    <div class="stat-card">
+        <h3>Locked</h3>
+        <h2 id="lockedCount"></h2>
+    </div>
+
+    <div class="stat-card">
+        <h3>Unlocked</h3>
+        <h2 id="unlockedCount"></h2>
+    </div>
+
+</div>
+
+
+<!-- QUICK ACTIONS START HERE -->
+
+<div class="dashboard-card">
+
+    <h2>⚡ Quick Actions</h2>
+
+    <button onclick="window.location.href='flats.html'">
+        🏢 Flats
+    </button>
+
+    <button onclick="window.location.href='maintenance.html'">
+        💰 Maintenance
+    </button>
+
+    <button onclick="window.location.href='pooja.html'">
+        🛕 Pooja Log
+    </button>
+
+</div>
+
+<div class="dashboard-card">
+
+    <h2>📋 Recent Activity</h2>
+
+    <p>🔒 Flat 203 Locked</p>
+
+    <p>💰 Maintenance Updated</p>
+
+    <p>🛕 Pooja Schedule Generated</p>
+
+</div>
     <br>
 
-    <input
+   <!-- <input
         type="text"
         id="searchInput"
         placeholder="Search Flat Number">
@@ -130,7 +187,7 @@ placeholder="Owner Name">
         Show All
     </button>
 
-    <hr>
+    <hr> -->
 
     <div class="alerts-section"> 
     <h2>Emergency Alerts</h2> 
@@ -156,13 +213,13 @@ placeholder="Owner Name">
 
 <hr>
 
-    <h2>Activity Log</h2>
+ <!--   <h2>Activity Log</h2>
 
     <ul id="activityLog"></ul>
 
     <hr>
 
-    <div id="flatContainer"></div>
+    <div id="flatContainer"></div>  -->
 
     <script src="script.js"></script>
 

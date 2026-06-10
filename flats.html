@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Flats Management</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🏢 Flats Management</h1>
+
+<p>
+Manage apartment residents and security status.
+</p>
+
+<button onclick="window.location.href='index.html'">
+⬅ Back to Dashboard
+</button>
+
+<hr>
+
+<input
+type="number"
+id="searchInput"
+placeholder="Search Flat Number">
+
+<button onclick="searchFlat()">
+Search
+</button>
+
+<button onclick="displayFlats()">
+Show All
+</button>
+
+<hr>
+
+<h3>Add New Flat</h3>
+
+<input
+type="number"
+id="newFlatNumber"
+placeholder="Flat Number">
+
+<input
+type="text"
+id="newOwnerName"
+placeholder="Owner Name">
+
+<button onclick="addFlat()">
+➕ Add Flat
+</button>
+
+<hr>
+
+<div id="flatContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

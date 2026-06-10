@@ -9,7 +9,7 @@ status: "Locked"
 
 {
 number: 102,
-owner: "preeti Senapati",
+owner: "Preeti Senapati",
 status: "Unlocked"
 },
 
